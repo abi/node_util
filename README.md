@@ -3,8 +3,10 @@ node_util
 
 Utilities that help you write Node programs and in particular, CLI scripts easily.
 
-Goals
-=====
+Install
+=======
+
+`npm install node_util`
 
 Usage
 =====
@@ -30,4 +32,5 @@ TODO
 * Add async() that returns the async version of everything
 * Helper for mkdir -p
 * Helper for running something in the current TTY
-* Interactive examples?
+* Interactive examples (maybe in a browser)
+* Write out the goals for this project
