@@ -11,7 +11,7 @@ Install
 Usage
 =====
 
-In JS,
+In JavaScript,
 
 ```javascript
 node_util = require('node_util').sync()
@@ -19,12 +19,13 @@ read = node_util.read
 mv   = node_util.mv
 ```
 
-In Coffee, destructuring makes usage even more pleasant
+In Coffee, destructuring makes usage even more pleasant:
+
 ```coffee
 {mv, read, rm_r, get}  = require('node_util').sync()
 ```
 
-See [[examples/example.coffee]] for more.
+See `examples/example.coffee` for more.
 
 TODO
 ====
