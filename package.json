@@ -1,0 +1,39 @@
+{
+  "name": "node_util",
+  "version": "0.0.1",
+  "description": "Utilities that help you write Node programs and in particular, CLI scripts easily.",
+  "keywords": [
+    "file system",
+    "fs",
+    "utilities",
+    "cli"
+  ],
+  "author": "Abi <abii@stanford.edu> (http://abi.sh)",
+  "licenses": [
+    {
+      "type": "MIT"
+    }
+  ],
+  "scripts": {
+    "prepublish": "coffee -o lib/ -c ./src/node_util.coffee",
+    "test": "coffee examples/example.coffee"
+  },
+  "dependencies": {
+      "request": "2.x"
+  },
+  "main": "./lib/node_util.js",
+  "engines": {
+    "node": ">=0.4.x"
+  },
+  "directories": {
+    "example": "./examples",
+    "lib": "./src"
+  },
+  "devDependencies": {
+    "coffee-script": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/abi/ostutil.git"
+  }
+}
