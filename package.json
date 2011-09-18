@@ -34,6 +34,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/abi/ostutil.git"
+    "url": "git://github.com/abi/node_util.git"
   }
 }
